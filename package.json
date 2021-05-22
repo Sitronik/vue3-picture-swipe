@@ -1,6 +1,6 @@
 {
   "name": "vue3-picture-swipe",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "A Vue 3 integration PhotoSwipe image plugin",
   "main": "index.js",
   "files": [
@@ -44,5 +44,6 @@
     "eslint-plugin-vue": "^7.9.0",
     "vite": "^2.2.4",
     "vue": "^3.0.11"
-  }
+  },
+  "typings": "./index.d.ts"
 }
