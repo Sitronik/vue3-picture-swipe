@@ -1,7 +1,7 @@
-import dynamicImportVars from '@rollup/plugin-dynamic-import-vars'
-import vue from '@vitejs/plugin-vue'
+import dynamicImportVars from '@rollup/plugin-dynamic-import-vars';
+import vue from '@vitejs/plugin-vue';
 
-const path = require('path')
+const path = require('path');
 
 module.exports = {
   outDir: 'dist',
@@ -25,4 +25,4 @@ module.exports = {
       ]
     }
   }
-}
+};
