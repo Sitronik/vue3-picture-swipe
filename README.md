@@ -1,11 +1,11 @@
 # Vue 3 Picture Swipe Gallery
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/89b425b076134ff4b8bff5342d1942dc)](https://app.codacy.com/app/rap2hpoutre/vue3-picture-swipe?utm_source=github.com&utm_medium=referral&utm_content=rap2hpoutre/vue3-picture-swipe&utm_campaign=badger)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/89b425b076134ff4b8bff5342d1942dc)](https://app.codacy.com/app/sitronik/vue3-picture-swipe?utm_source=github.com&utm_medium=referral&utm_content=sitronik/vue3-picture-swipe&utm_campaign=badger)
 [![npm download](https://img.shields.io/npm/dt/vue3-picture-swipe.svg)](https://www.npmjs.com/package/vue3-picture-swipe)
 [![npm version](https://img.shields.io/npm/v/vue3-picture-swipe.svg)](https://www.npmjs.com/package/vue3-picture-swipe)
 [![Package Quality](http://npm.packagequality.com/shield/vue3-picture-swipe.svg)](http://packagequality.com/#?package=vue3-picture-swipe)
 [![vue3](https://img.shields.io/badge/vue-3.x-brightgreen.svg)](https://vuejs.org/)
-[![MIT License](https://img.shields.io/github/license/rap2hpoutre/vue3-picture-swipe.svg)](https://github.com/rap2hpoutre/vue3-picture-swipe/blob/master/LICENSE)
+[![MIT License](https://img.shields.io/github/license/sitronik/vue3-picture-swipe.svg)](https://github.com/sitronik/vue3-picture-swipe/blob/master/LICENSE)
 
 This component is a simple wrapper for the awesome [Photoswipe](http://photoswipe.com/).
 It's a [Vue 3](https://vuejs.org/) plugin that displays a gallery of image with swipe function (and more). 
