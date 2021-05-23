@@ -1,9 +1,9 @@
 <script>
 import * as Vue from 'vue';
-import PhotoSwipe from 'photoswipe/dist/photoswipe';
-import PhotoSwipeUI_Default from 'photoswipe/dist/photoswipe-ui-default';
-import 'photoswipe/dist/photoswipe.css';
-import 'photoswipe/dist/default-skin/default-skin.css';
+import PhotoSwipe from './photoswipe/photoswipe';
+import PhotoSwipeUI_Default from './photoswipe/photoswipe-ui-default';
+import './photoswipe/photoswipe.css';
+import './photoswipe/default-skin/default-skin.css';
 
 const {h} = Vue;
 

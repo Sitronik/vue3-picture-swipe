@@ -7,6 +7,9 @@ module.exports = {
   outDir: 'dist',
   plugins: [vue()],
   build: {
+    commonjsOptions: {
+      exclude: ['photoswipe/*']
+    },
     lib: {
       entry: path.resolve(__dirname, 'src/main.js'),
       name: 'VuePictureSwipe'

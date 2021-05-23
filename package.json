@@ -1,6 +1,6 @@
 {
   "name": "vue3-picture-swipe",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "A Vue 3 integration PhotoSwipe image plugin",
   "main": "index.js",
   "files": [
@@ -25,9 +25,6 @@
   },
   "author": "sitronik",
   "license": "MIT",
-  "dependencies": {
-    "photoswipe": "^4.1.2"
-  },
   "devDependencies": {
     "@rollup/plugin-dynamic-import-vars": "^1.1.1",
     "@vitejs/plugin-vue": "^1.2.2",
