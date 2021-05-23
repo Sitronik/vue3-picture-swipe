@@ -3166,7 +3166,6 @@
     let tapTimer,
       tapReleasePoint = {},
       _dispatchTapEvent = function(origEvent, releasePoint, pointerType) {
-	 console.log('inject');
         const e = document.createEvent('CustomEvent'),
           eDetail = {
             origEvent,
