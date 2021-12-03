@@ -20,6 +20,7 @@
         >
           <img :src="item.thumbnail" :alt="item.alt" itemprop="thumbnail" />
         </a>
+        <render-html v-if="item.htmlAfterThumbnail" :template="item.htmlAfterThumbnail" />
       </figure>
     </div>
 
@@ -29,9 +30,10 @@
 
 <script>
 import PhotoSwipeComponent from './PhotoSwipeComponent.vue';
+import RenderHtml from './RenderHtml.vue';
 
 export default {
-  components: {PhotoSwipeComponent},
+  components: {PhotoSwipeComponent, RenderHtml},
   props: {
     items: {
       default: [
@@ -40,13 +42,15 @@ export default {
           thumbnail: 'http://via.placeholder.com/64x64',
           w: 0,
           h: 0,
-          alt: 'some numbers on a grey background'
+          alt: 'some numbers on a grey background',
+          htmlAfterThumbnail: '<span class="photos-date">29.12.2021</span>'
         },
         {
           src: 'http://via.placeholder.com/1200x900',
           thumbnail: 'http://via.placeholder.com/64x64',
           w: 0,
-          h: 0
+          h: 0,
+          htmlAfterThumbnail: ''
         }
       ],
       type: Array

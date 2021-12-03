@@ -72,7 +72,8 @@ Create a component `Example.vue`. Then paste this:
           src: 'http://via.placeholder.com/1200x900',
           thumbnail: 'http://via.placeholder.com/64x64',
           w: 1200,
-          h: 900
+          h: 900,
+          htmlAfterThumbnail: '<span class="photos-date">29.12.2021</span>' // optional, insert your html after tag a  if you need it
         }
       ]};
     }
