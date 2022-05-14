@@ -24,7 +24,12 @@
       </figure>
     </div>
 
-    <photo-swipe-component v-if="defaultStructure" :options="options"></photo-swipe-component>
+    <photo-swipe-component
+      v-if="defaultStructure"
+      :options="options"
+      @open="$emit('open')"
+      @close="$emit('close')"
+    />
   </div>
 </template>
 
